@@ -4,13 +4,13 @@
 
 def main():
     word = input("Input: ")
-    result = ""
+    response = ""
 
     for letter in word:
         if letter not in ["a", "e", "i", "o", "u"]:
-            result += letter #if it is not a vowel, it adds the letters
+            response += letter #if it is not a vowel, it adds the letters
 
-    print(f"Output: {result}")
+    print(f"Output: {response}")
 
 if __name__ == "__main__":
     main()
